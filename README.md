@@ -100,9 +100,9 @@ file in memory. From the **116,874** users with 10–300 in-dataset reviews we d
 
 The work is split across **two Jupyter notebooks** that read top-to-bottom:
 
-| Notebook | Module | What it does |
-|---|---|---|
-| **`capstone_eda.ipynb`** | 21 | Loads & cleans the raw data, **engineers 18 per-user features**, explores them with visualizations, and fits a single **baseline** model (Isolation Forest). |
+| Notebook                                | Module | What it does |
+|-----------------------------------------|---|---|
+| **`yelp_dataset_eda.ipynb`**            | 21 | Loads & cleans the raw data, **engineers 18 per-user features**, explores them with visualizations, and fits a single **baseline** model (Isolation Forest). |
 | **`yelp_dataset_final_modeling.ipynb`** | 24 | Diagnoses & fixes the baseline's key flaw, compares **three models**, builds a **consensus ensemble**, explains the flags, and validates them against real review text. |
 
 **The 18 features, grouped by intuition:**
